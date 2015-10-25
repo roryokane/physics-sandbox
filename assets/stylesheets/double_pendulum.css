@@ -10,22 +10,28 @@
 }
 /* line 9, ../sass/double_pendulum.sass */
 .sidebar label {
-  margin: 10px 0 5px 10px;
+  margin: 10px 0 15px 10px;
   display: block;
 }
 /* line 12, ../sass/double_pendulum.sass */
-.sidebar input {
-  margin: 10px 0 5px 10px;
+.sidebar .name-label {
   display: block;
-  margin-bottom: 10px;
+}
+/* line 14, ../sass/double_pendulum.sass */
+.sidebar input {
+  margin: 5px 5px 0px 5px;
+}
+/* line 16, ../sass/double_pendulum.sass */
+.sidebar input.submit-btn {
+  margin: 0 0 0 10px;
 }
 
-/* line 17, ../sass/double_pendulum.sass */
+/* line 19, ../sass/double_pendulum.sass */
 .phys-canvas {
   float: left;
 }
 
-/* line 20, ../sass/double_pendulum.sass */
+/* line 22, ../sass/double_pendulum.sass */
 .submit-btn {
   width: 80%;
   padding: 5px;

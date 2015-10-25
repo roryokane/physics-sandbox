@@ -9,14 +9,26 @@
   %body{style: "margin: 0;max-width:100%;padding:0"}
     .sidebar
       %form#set_variables_form
-        %label{for: "mass1"} Mass1:
-        %input#mass1{max: "50", min: "1", type: "range", value: "10"}/
-        %label{for: "mass2"} Mass2:
-        %input#mass2{max: "50", min: "1", type: "range", value: "10"}/
-        %label{for: "Phi1"} Phi1 (in deg):
-        %input#Phi1{max: "90", min: "0", type: "range", value: "50"}/
-        %label{for: "Phi2"} Phi2 (in deg):
-        %input#Phi2{max: "90", min: "0", type: "range", value: "65"}/
+        %label
+          %span.name-label Mass1:
+          1
+          %input#mass1{max: "50", min: "1", type: "range", value: "10"}/
+          50
+        %label
+          %span.name-label Mass2:
+          1
+          %input#mass2{max: "50", min: "1", type: "range", value: "10"}/
+          50
+        %label
+          %span.name-label Phi1 (in deg):
+          0
+          %input#Phi1{max: "90", min: "0", type: "range", value: "50"}/
+          90
+        %label
+          %span.name-label Phi2 (in deg):
+          0
+          %input#Phi2{max: "90", min: "0", type: "range", value: "65"}/
+          90
         %input.submit-btn{type: "submit", value: "Start Simulation"}/
       %footer{style: "padding-left: 10px"}
         %a{href: "https://github.com/micaeloliveira/physics-sandbox"}

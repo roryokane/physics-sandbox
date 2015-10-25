@@ -10,14 +10,30 @@
   <body style='margin: 0;max-width:100%;padding:0'>
     <div class='sidebar'>
       <form id='set_variables_form'>
-        <label for='mass1'>Mass1:</label>
-        <input id='mass1' max='50' min='1' type='range' value='10'>
-        <label for='mass2'>Mass2:</label>
-        <input id='mass2' max='50' min='1' type='range' value='10'>
-        <label for='Phi1'>Phi1 (in deg):</label>
-        <input id='Phi1' max='90' min='0' type='range' value='50'>
-        <label for='Phi2'>Phi2 (in deg):</label>
-        <input id='Phi2' max='90' min='0' type='range' value='65'>
+        <label>
+          <span class='name-label'>Mass1:</span>
+          1
+          <input id='mass1' max='50' min='1' type='range' value='10'>
+          50
+        </label>
+        <label>
+          <span class='name-label'>Mass2:</span>
+          1
+          <input id='mass2' max='50' min='1' type='range' value='10'>
+          50
+        </label>
+        <label>
+          <span class='name-label'>Phi1 (in deg):</span>
+          0
+          <input id='Phi1' max='90' min='0' type='range' value='50'>
+          90
+        </label>
+        <label>
+          <span class='name-label'>Phi2 (in deg):</span>
+          0
+          <input id='Phi2' max='90' min='0' type='range' value='65'>
+          90
+        </label>
         <input class='submit-btn' type='submit' value='Start Simulation'>
       </form>
       <footer style='padding-left: 10px'>
