@@ -14,7 +14,8 @@ $('#set_variables_form').submit(function (e) {
 
 function drawCircle(myCircle, context) {
   context.beginPath();
-  context.arc(myCircle.x, myCircle.y, myCircle.mass, 0, 2 * Math.PI, false);
+  var radius = Math.sqrt(myCircle.mass) * 5;
+  context.arc(myCircle.x, myCircle.y, radius, 0, 2 * Math.PI, false);
   context.fillStyle = 'rgba(0,0,0,1)';
   context.fill();
 }
